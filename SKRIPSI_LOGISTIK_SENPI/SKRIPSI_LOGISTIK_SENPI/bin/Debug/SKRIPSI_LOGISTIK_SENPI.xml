@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SKRIPSI_LOGISTIK_SENPI
+</name>
+</assembly>
+<members>
+<member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.bacground">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.bacground1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.halaman_depan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.icon_anggota">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.icon_pengambilan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.icon_pengembalian">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.icon_senjata">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.Lambang_Korps_Brimob">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.Lambang_Korps_Brimob1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.masyarakat">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.YONCPOR">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
