@@ -43,6 +43,10 @@ SKRIPSI_LOGISTIK_SENPI
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.KELUAR">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.Lambang_Korps_Brimob">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -51,7 +55,15 @@ SKRIPSI_LOGISTIK_SENPI
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.logout">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.masyarakat">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.transparent_login_icon_logout_icon_5dcfef94516950_3632820915739083723335">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

@@ -133,6 +133,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property KELUAR() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("KELUAR", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Lambang_Korps_Brimob() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Lambang_Korps_Brimob", resourceCulture)
@@ -153,9 +163,29 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property logout() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("logout", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property masyarakat() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("masyarakat", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property transparent_login_icon_logout_icon_5dcfef94516950_3632820915739083723335() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("transparent-login-icon-logout-icon-5dcfef94516950.3632820915739083723335", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

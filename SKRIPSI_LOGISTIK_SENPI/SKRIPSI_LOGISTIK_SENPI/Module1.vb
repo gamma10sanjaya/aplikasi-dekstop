@@ -8,7 +8,7 @@ Module Module1
     Public Str As String
 
     Sub koneksi()
-        Dim str As String = "Driver={Mysql ODBC 3.51 Driver};Database=db_logistik_kompi;server=localhost;uid=root"
+        Dim str As String = "Driver={Mysql ODBC 8.0 ANSI Driver};Database=db_logistik_kompi;server=localhost;uid=root"
         Conn = New OdbcConnection(str)
         If Conn.State = ConnectionState.Closed Then
             Conn.Open()

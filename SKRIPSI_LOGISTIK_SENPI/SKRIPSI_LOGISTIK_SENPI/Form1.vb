@@ -368,13 +368,12 @@ Public Class Form1
                 Psenjata.Show()
                 Ppinjam.Show()
                 Pkembali.Show()
+                p_keluar.Show()
                 Plogin.Hide()
             ElseIf txt_username.Text = "baurlog" Or txt_password.Text = "baurlog" Then
                 Form6.Show()
-                Plogin.Hide()
             ElseIf txt_username.Text = "danki" Or txt_password.Text = "danki" Then
                 Form7.Show()
-                Plogin.Hide()
             End If
 
             End If
@@ -1065,4 +1064,15 @@ Public Class Form1
         Form5.Show()
     End Sub
 
+    Private Sub p_keluar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles p_keluar.Click
+        Pdataanggota.Visible = False
+        Ppengembalian.Visible = False
+        Ppeminjaman.Visible = False
+        Panggota.Visible = False
+        Psenjata.Visible = False
+        Ppinjam.Visible = False
+        Pkembali.Visible = False
+        p_keluar.Visible = False
+        Plogin.Visible = True
+    End Sub
 End Class

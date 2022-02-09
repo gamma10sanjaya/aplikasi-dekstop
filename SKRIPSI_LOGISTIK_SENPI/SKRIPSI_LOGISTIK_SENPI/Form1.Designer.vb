@@ -190,6 +190,7 @@ Partial Class Form1
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PD1 = New System.Drawing.Printing.PrintDocument()
         Me.PD2 = New System.Drawing.Printing.PrintDocument()
+        Me.p_keluar = New System.Windows.Forms.Panel()
         Me.Plogin.SuspendLayout()
         Me.Pdataanggota.SuspendLayout()
         Me.Pdatasenjata.SuspendLayout()
@@ -398,9 +399,9 @@ Partial Class Form1
         Me.Pdataanggota.Controls.Add(Me.Label6)
         Me.Pdataanggota.Controls.Add(Me.Label5)
         Me.Pdataanggota.Controls.Add(Me.Panel4)
-        Me.Pdataanggota.Location = New System.Drawing.Point(222, 105)
+        Me.Pdataanggota.Location = New System.Drawing.Point(223, 105)
         Me.Pdataanggota.Name = "Pdataanggota"
-        Me.Pdataanggota.Size = New System.Drawing.Size(997, 576)
+        Me.Pdataanggota.Size = New System.Drawing.Size(996, 576)
         Me.Pdataanggota.TabIndex = 3
         '
         'Pdatasenjata
@@ -1882,6 +1883,16 @@ Partial Class Form1
         'PD2
         '
         '
+        'p_keluar
+        '
+        Me.p_keluar.BackgroundImage = Global.SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.KELUAR
+        Me.p_keluar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.p_keluar.Location = New System.Drawing.Point(1115, 12)
+        Me.p_keluar.Name = "p_keluar"
+        Me.p_keluar.Size = New System.Drawing.Size(93, 87)
+        Me.p_keluar.TabIndex = 27
+        Me.p_keluar.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1889,6 +1900,7 @@ Partial Class Form1
         Me.BackgroundImage = Global.SKRIPSI_LOGISTIK_SENPI.My.Resources.Resources.bacground1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1362, 741)
+        Me.Controls.Add(Me.p_keluar)
         Me.Controls.Add(Me.Ppeminjaman)
         Me.Controls.Add(Me.Pdataanggota)
         Me.Controls.Add(Me.Pkembali)
@@ -2107,5 +2119,6 @@ Partial Class Form1
     Friend WithEvents lb_nrp_anggota As System.Windows.Forms.Label
     Friend WithEvents Label58 As System.Windows.Forms.Label
     Friend WithEvents Label63 As System.Windows.Forms.Label
+    Friend WithEvents p_keluar As System.Windows.Forms.Panel
 
 End Class
